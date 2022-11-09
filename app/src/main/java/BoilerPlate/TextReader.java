@@ -40,7 +40,7 @@ public class TextReader {
       String textFromFile = "";
       String line = null;
       while ((line = br.readLine()) != null) {
-        textFromFile += line;
+        textFromFile += line + "\n";
       }
 
       br.close();
